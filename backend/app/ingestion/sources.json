@@ -1,0 +1,160 @@
+{
+  "jurisdictions": [
+    {"code": "US", "name": "United States", "region": "North America"},
+    {"code": "SG", "name": "Singapore", "region": "Asia-Pacific"},
+    {"code": "HK", "name": "Hong Kong", "region": "Asia-Pacific"},
+    {"code": "AE", "name": "United Arab Emirates", "region": "Middle East"},
+    {"code": "ZA", "name": "South Africa", "region": "Africa"},
+    {"code": "NG", "name": "Nigeria", "region": "Africa"},
+    {"code": "KE", "name": "Kenya", "region": "Africa"},
+    {"code": "EU", "name": "European Union", "region": "Europe"}
+  ],
+  "sources": [
+    {
+      "id": "sec-press",
+      "name": "US SEC Press Releases",
+      "agency": "Securities and Exchange Commission",
+      "jurisdiction": "US",
+      "url": "https://www.sec.gov/news/pressreleases.rss",
+      "feed_type": "rss",
+      "default_topics": ["crypto", "tech", "ai"]
+    },
+    {
+      "id": "cftc-press",
+      "name": "US CFTC Press Releases",
+      "agency": "Commodity Futures Trading Commission",
+      "jurisdiction": "US",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/index.htm",
+      "feed_type": "html",
+      "html_selector": "div.view-content a",
+      "default_topics": ["crypto", "tech"]
+    },
+    {
+      "id": "mas-news",
+      "name": "MAS News",
+      "agency": "Monetary Authority of Singapore",
+      "jurisdiction": "SG",
+      "url": "https://www.mas.gov.sg/news/rss",
+      "feed_type": "rss",
+      "default_topics": ["crypto", "tech", "ai"]
+    },
+    {
+      "id": "sfc-news",
+      "name": "SFC News",
+      "agency": "Securities and Futures Commission",
+      "jurisdiction": "HK",
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news/",
+      "feed_type": "html",
+      "html_selector": "a",
+      "default_topics": ["crypto", "tech", "ai"]
+    },
+    {
+      "id": "hkma-press",
+      "name": "HKMA Press Releases",
+      "agency": "Hong Kong Monetary Authority",
+      "jurisdiction": "HK",
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/",
+      "feed_type": "html",
+      "html_selector": "div.content a",
+      "default_topics": ["crypto", "tech", "ai"]
+    },
+    {
+      "id": "vara-news",
+      "name": "VARA News",
+      "agency": "Virtual Assets Regulatory Authority",
+      "jurisdiction": "AE",
+      "url": "https://www.vara.ae/en/news",
+      "feed_type": "html",
+      "html_selector": "a",
+      "default_topics": ["crypto"]
+    },
+    {
+      "id": "adgm-news",
+      "name": "ADGM News",
+      "agency": "Abu Dhabi Global Market",
+      "jurisdiction": "AE",
+      "url": "https://www.adgm.com/media/announcements",
+      "feed_type": "html",
+      "html_selector": "a",
+      "default_topics": ["crypto", "tech", "ai"]
+    },
+    {
+      "id": "fsra-news",
+      "name": "ADGM FSRA News",
+      "agency": "Financial Services Regulatory Authority",
+      "jurisdiction": "AE",
+      "url": "https://www.adgm.com/publications",
+      "feed_type": "html",
+      "html_selector": "a",
+      "default_topics": ["crypto", "tech", "ai"]
+    },
+    {
+      "id": "fsca-media",
+      "name": "FSCA Media Releases",
+      "agency": "Financial Sector Conduct Authority",
+      "jurisdiction": "ZA",
+      "url": "https://www.fsca.co.za/Media/Pages/Media-Releases.aspx",
+      "feed_type": "html",
+      "html_selector": "a",
+      "default_topics": ["crypto", "tech"]
+    },
+    {
+      "id": "sec-nigeria",
+      "name": "SEC Nigeria News",
+      "agency": "Securities and Exchange Commission Nigeria",
+      "jurisdiction": "NG",
+      "url": "https://sec.gov.ng/news/",
+      "feed_type": "html",
+      "html_selector": "article a, .entry-title a",
+      "default_topics": ["crypto", "tech"]
+    },
+    {
+      "id": "cma-kenya",
+      "name": "CMA Kenya News",
+      "agency": "Capital Markets Authority Kenya",
+      "jurisdiction": "KE",
+      "url": "https://www.cma.or.ke/news/",
+      "feed_type": "html",
+      "html_selector": "a",
+      "default_topics": ["crypto", "tech"]
+    },
+    {
+      "id": "esma-news",
+      "name": "ESMA News",
+      "agency": "European Securities and Markets Authority",
+      "jurisdiction": "EU",
+      "url": "https://www.esma.europa.eu/press-news/esma-news",
+      "feed_type": "html",
+      "html_selector": "a",
+      "default_topics": ["crypto", "tech", "ai"]
+    },
+    {
+      "id": "eu-ai-act",
+      "name": "EU Digital Strategy",
+      "agency": "European Commission",
+      "jurisdiction": "EU",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/rss.xml",
+      "feed_type": "rss",
+      "default_topics": ["ai", "tech"]
+    },
+    {
+      "id": "finra-news",
+      "name": "FINRA News",
+      "agency": "Financial Industry Regulatory Authority",
+      "jurisdiction": "US",
+      "url": "https://www.finra.org/media-center/newsreleases",
+      "feed_type": "html",
+      "html_selector": "a",
+      "default_topics": ["crypto", "tech"]
+    },
+    {
+      "id": "nist-ai",
+      "name": "NIST AI News",
+      "agency": "National Institute of Standards and Technology",
+      "jurisdiction": "US",
+      "url": "https://www.nist.gov/news-events/news/rss.xml",
+      "feed_type": "rss",
+      "default_topics": ["ai", "tech"]
+    }
+  ]
+}
